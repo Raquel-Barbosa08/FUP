@@ -1,0 +1,40 @@
+É o numero 3?
+#include <stdio.h>
+
+int main(){
+    int num;
+    scanf("%d",&num);
+    if(num==3){
+        printf("SIM");
+    }
+ return 0;   
+    
+    
+}
+/////////////////////////////////
+Maior ou igual a 16?
+#include <stdio.h>
+
+int main(){
+    int num;
+    scanf("%d",&num);
+    
+    if(num>=16){
+        printf("SIM");
+    }
+    return 0;
+}
+/////////////////////////////////////
+Múltiplo de 7?
+#include <stdio.h>
+
+int main(){
+    int num;
+    scanf("%d",&num);
+    int mul = num%7;
+    
+    if(mul==0){
+        printf("SIM");
+    }
+    return 0;
+}
